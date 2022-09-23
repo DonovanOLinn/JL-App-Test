@@ -1,1 +1,1 @@
-web: gunicorn app:covid_inventory
+web: gunicorn app:app

@@ -1,8 +1,8 @@
 from cmath import exp
 from flask import Blueprint, render_template, request, redirect, url_for, flash
 
-from covid_inventory.forms import UserLoginForm
-from covid_inventory.models import User, db, check_password_hash
+from app.forms import UserLoginForm
+from app.models import User, db, check_password_hash
 from flask_login import login_user, logout_user, current_user, login_required
 
 auth = Blueprint('auth', __name__, template_folder = 'auth_templates')

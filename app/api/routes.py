@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from covid_inventory.helpers import token_required
-from covid_inventory.models import db, Location, location_schema, locations_schema
+from app.helpers import token_required
+from app.models import db, Location, location_schema, locations_schema
 
 
 api = Blueprint('api', __name__, url_prefix = '/api')
