@@ -1,4 +1,5 @@
 import os 
+#os.chdir('<path URL>')
 from dotenv import load_dotenv
 
 basedir = os.path.abspath(os.path.dirname(__file__))

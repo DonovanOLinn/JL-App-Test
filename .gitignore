@@ -1,4 +1,4 @@
-rangers_env
+rangers_venv
 __pycache__
 .env
 migrations
